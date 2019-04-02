@@ -11,8 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <BrowserRouter basename="/email-subscription-form" />>
-          <Router>
+          <Router basename="/email-subscription-form">
             <Switch>
               <Route exact path="/" component={Subscribe} />
               <Route exact path="/subscribed" component={ThankYou} />
