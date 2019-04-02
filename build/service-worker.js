@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/subscription-form/precache-manifest.4e8290fb1e6e025d8f9063afb2884da7.js"
+  "/email-subscription-form/precache-manifest.646a9e6779bb1e190b8082df487d2ecf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/subscription-form/index.html", {
+workbox.routing.registerNavigationRoute("/email-subscription-form/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

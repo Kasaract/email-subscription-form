@@ -1,6 +1,6 @@
 {
   "name": "subscriber-react",
-  "homepage": "https://kasaract.github.io/email-subscription-form/",
+  "homepage" : "http://kasaract.github.io/email-subscription-form",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
