@@ -11,13 +11,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <Router>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
               <Route exact path="/" component={Subscribe} />
               <Route exact path="/subscribed" component={ThankYou} />
               <Route exact path="/getallsubscribers" component={GetSubscribers} />
             </Switch>
-          </Router>
+          </BrowserRouter>
       </div>
     );
   }
